@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+   
+font-family: 'Bricolage Grotesque', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Slabo 27px', serif;
+font-family: 'Sofia', cursive;
+}
+.caroImg img{
+    width:150px;
+    height: 500px;
+}
+
+
+.slideItem{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* timer */
+.countdown-timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+  }
+  
+  .timer-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .timer {
+    margin: 0 20px;
+    font-size: 2rem;
+    text-align: center;
+   
+  }
+  
+  .timer span {
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .timer p {
+    font-size: 1rem;
+    color: #c5c3c3;
+  }
+
+  /* login form */
+  /* src/components/LoginForm.css */
+
+.login-container {
+    max-width: 400px;
+    padding: 20px;
+   
+    border-radius: 5px;
+  }
+  
+  .login-container h2 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .submit-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .hireCard{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
